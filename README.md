@@ -98,6 +98,21 @@ go build -o dist/ragcheck .
 - Keep qrels and run files aligned on `query_id`.
 - Maintainer release steps live in `PUBLISHING.md`.
 
+## Claude Code skill
+
+This repo also ships a Claude Code skill. Install standalone:
+
+```bash
+npx skills add itamaker/ragcheck-skill
+```
+
+Or via the [`itamaker/skills`](https://github.com/itamaker/skills) plugin marketplace:
+
+```text
+/plugin marketplace add itamaker/skills
+/plugin install ragcheck-skill@itamaker-skills
+```
+
 ## Contributors ✨
 
 | [![Zhaoyang Jia][avatar-zhaoyang]][author-zhaoyang] |

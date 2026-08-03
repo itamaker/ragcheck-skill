@@ -1,5 +1,5 @@
 dist/
-ragcheck
+/ragcheck
 *.out
 *.test
 .DS_Store
