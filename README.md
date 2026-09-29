@@ -1,5 +1,9 @@
 # ragcheck
 
+> **Moved.** The skill in this repository now lives in [itamaker/skills](https://github.com/itamaker/skills/tree/main/skills/agent-tooling/ragcheck), together with my other skills. Install from there: `npx skills@latest add itamaker/skills --skill=ragcheck`.
+>
+> This repository still hosts the command-line tool's source and releases.
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 
 `ragcheck` is a Go CLI for evaluating retrieval and RAG runs offline.
