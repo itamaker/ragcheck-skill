@@ -1,5 +1,0 @@
-{
-  "name": "ragcheck-skill",
-  "description": "Evaluate retrieval and RAG runs offline with Precision@k, Recall@k, MAP, nDCG, and answer judges",
-  "version": "1.0.0"
-}
