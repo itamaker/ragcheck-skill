@@ -60,6 +60,16 @@ Judge answer quality and grounding:
 ragcheck judge -input examples/judge.json
 ```
 
+Scripts and coding agents should always use the direct `score` and `judge` forms (running `ragcheck` with no arguments opens the TUI). Discover flags and the installed version with:
+
+```bash
+ragcheck --help            # also: -h, help
+ragcheck score --help      # also: help score; same for judge
+ragcheck --version         # also: version, ragcheck score --version
+```
+
+Help and version go to stdout with exit code 0. Usage errors exit 2 and runtime failures exit 1.
+
 ## Requirements
 
 - Go `1.22+`
